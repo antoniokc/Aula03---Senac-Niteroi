@@ -1,3 +1,5 @@
+#Calcula desconto
+
 
 # Entrada
 quantidadevenda = int(input("quantas camisetas o senhor comprou? "))
@@ -9,4 +11,4 @@ aplicação = (preço - desconto)
 vendatotal = (quantidadevenda * aplicação)
 
 # Saida
-print('O desconto da camiseta vai ser ', desconto, ". Já o valor da camiseta será ", aplicação, ", e agora sua venda deu um valor total de",vendatotal, ",vai ser no Credito ou Debito?")
+print('O desconto da camiseta vai ser ', desconto, ". Já o valor da camiseta será ", aplicação, ", e agora sua venda deu um valor total de", vendatotal, ",vai ser no Credito ou Debito?")
